@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montaj Robotları ve Otomasyon Sistemleri | Portfolyo</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .accordion-container {
+            margin-top: 30px;
+        }
+        .accordion-item {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 15px;
+            overflow: hidden;
+            transition: border-color 0.3s ease;
+        }
+        .accordion-item:hover {
+            border-color: var(--accent-color);
+        }
+        .accordion-item summary {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            padding: 18px 20px;
+            cursor: pointer;
+            outline: none;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .accordion-item summary::-webkit-details-marker {
+            display: none;
+        }
+        .accordion-item summary::after {
+            content: "+";
+            font-size: 1.4rem;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+        .accordion-item[open] summary::after {
+            content: "−";
+        }
+        .accordion-item[open] summary {
+            border-bottom: 1px solid var(--border-color);
+            color: var(--accent-color);
+        }
+        .accordion-content {
+            padding: 20px;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+        .accordion-content strong {
+            color: var(--text-primary);
+        }
+        .accordion-content ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        .accordion-content li {
+            margin-bottom: 6px;
+        }
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 25px;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-btn:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container" style="padding-top: 50px; padding-bottom: 80px;">
+        <a href="../index.html" class="back-btn">← Ana Sayfaya Dön</a>
+        
+        <header style="margin-bottom: 40px;">
+            <h1 style="font-size: 2.2rem; color: var(--accent-color); margin-bottom: 10px;">Montaj Robotları ve Otomasyon Sistemleri</h1>
+            <p style="color: var(--text-secondary); font-size: 1.1rem;">
+                Endüstriyel montaj hatları, robotik entegrasyonlar, otomatik besleme ve tork kontrollü vidalama sistemleri.
+            </p>
+        </header>
+
+        <div class="accordion-container">
+
+            <!-- PROJE 1 -->
+            <details class="accordion-item">
+                <summary>1. Montaj Otomasyonları</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Çok istasyonlu döner tablalı ve lineer konveyörlü otomatik parça montaj hatlarının mekanik ve otomasyon tasarımı.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Hat konsept tasarımı, döner indeksleme tablaları ve pnömatik fikstür tasarımları.</li>
+                        <li><strong>Kazanımlar:</strong> Çevrim süreleri (cycle time) düşürülerek montaj hataları sıfırlandı.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <!-- PROJE 2 -->
+            <details class="accordion-item">
+                <summary>2. Robotik Uygulamalar</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Endüstriyel 6 eksen ve SCARA robotların hatta entegrasyonu, tutucu (EOAT - End of Arm Tooling) griper tasarımları.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Özel pneumatik/vakum tutucu kafa tasarımları, robot erişim alanı (reachability) ve çakışma analizleri.</li>
+                        <li><strong>Kazanımlar:</strong> Hassas konumlandırma ve kesintisiz otomatik taşıma/parça yerleştirme sağlandı.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <!-- PROJE 3 -->
+            <details class="accordion-item">
+                <summary>3. Besleme Sistemleri</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Karmaşık parçaların montaj hattına doğru oryantasyonda ve kesintisiz akışla aktarılması için tasarlanmış otomasyon sistemleri.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Titreşimli çanak (vibratory bowl), elek ve hat içi sıralayıcı mekanizma tasarımları.</li>
+                        <li><strong>Kazanımlar:</strong> Parça besleme hızı otomatize edilerek insan müdahalesi ihtiyacı ortadan kaldırıldı.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <!-- PROJE 4 -->
+            <details class="accordion-item">
+                <summary>4. Vidalama Sistemleri</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Tork ve açı kontrollü, otomatik vida beslemeli çoklu otomasyon vidalama üniteleri.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Vidalama kafası mekanik tasarımı, derinlik ve tork sensörü entegrasyonu.</li>
+                        <li><strong>Kazanımlar:</strong> Hatalı torklama ve diş kaptırma problemleri engellenerek ISO standartlarında montaj kalitesi elde edildi.</li>
+                    </ul>
+                </div>
+            </details>
+
+        </div>
+    </div>
+
+</body>
+</html>
