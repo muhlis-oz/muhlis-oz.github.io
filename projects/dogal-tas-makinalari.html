@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doğal Taş Sektörü Projeleri | Portfolyo</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .accordion-container {
+            margin-top: 30px;
+        }
+        .accordion-item {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 15px;
+            overflow: hidden;
+            transition: border-color 0.3s ease;
+        }
+        .accordion-item:hover {
+            border-color: var(--accent-color);
+        }
+        .accordion-item summary {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            padding: 18px 20px;
+            cursor: pointer;
+            outline: none;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .accordion-item summary::-webkit-details-marker {
+            display: none;
+        }
+        .accordion-item summary::after {
+            content: "+";
+            font-size: 1.4rem;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+        .accordion-item[open] summary::after {
+            content: "−";
+        }
+        .accordion-item[open] summary {
+            border-bottom: 1px solid var(--border-color);
+            color: var(--accent-color);
+        }
+        .accordion-content {
+            padding: 20px;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+        .accordion-content strong {
+            color: var(--text-primary);
+        }
+        .accordion-content ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        .accordion-content li {
+            margin-bottom: 6px;
+        }
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 25px;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-btn:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container" style="padding-top: 50px; padding-bottom: 80px;">
+        <a href="../index.html" class="back-btn">← Ana Sayfaya Dön</a>
+        
+        <header style="margin-bottom: 40px;">
+            <h1 style="font-size: 2.2rem; color: var(--accent-color); margin-bottom: 10px;">Doğal Taş Sektörü Projeleri</h1>
+            <p style="color: var(--text-secondary); font-size: 1.1rem;">
+                Mermer, granit ve doğal taş işleme tesisleri için tasarlanan ve imal edilen 10 farklı tip makine, mekanizma ve otomasyon hattı detayları.
+            </p>
+        </header>
+
+        <div class="accordion-container">
+
+            <!-- PROJE 1 -->
+            <details class="accordion-item">
+                <summary>1. 5 Eksen CNC Köprü Kesme Makinası</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Büyük boyutlu mermer ve granit plakaların yüksek hassasiyet ve hızla ebatlanması için geliştirilmiş heavy-duty gövdeli 5 eksen CNC köprü kesme sistemi.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Şasi ve köprü yapısının SolidWorks üzerinde tasarımı, Ansys ile dinamik yük ve sehim (FEA) analizleri, kayıcı grup ve kremiyer-pinyon tahrik mekanizmalarının seçimi.</li>
+                        <li><strong>Kullanılan Teknolojiler / Standartlar:</strong> Linear Guide Rails, Servo Drive Systems, ISO / DIN Tolerans Standartları.</li>
+                        <li><strong>Kazanımlar:</strong> Kesim toleransı ±0.15 mm seviyesine indirildi. Köprü esnemesi %30 azaltılarak testere ömrü artırıldı.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <!-- PROJE 2 -->
+            <details class="accordion-item">
+                <summary>2. Çoklu Başlıklı Plaka Yüzey Parlatma (Cila) Makinası</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Ham plaka yüzeylerinin kademeli olarak pürüzsüzleştirilmesi ve parlatılması amacıyla tasarlanan pnömatik baskı kontrollü çoklu cila kafası mekanizması.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Cila kafalarının (polishing heads) mekanik montaj tasarımı, spandrel ve rulman yataklama sistemlerinin boyutlandırılması, suya dayanıklı sızdırmazlık (labirent keçe) detayları.</li>
+                        <li><strong>Kullanılan Teknolojiler:</strong> Pneumatic Pressure Control, Cast Iron Frame, Heavy Duty Bearings.</li>
+                        <li><strong>Kazanımlar:</strong> Yüzey parlatma homojenliği artırıldı, hatalı baskıdan kaynaklanan aşındırıcı taş tüketimi %18 azaltıldı.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <!-- PROJE 3 -->
+            <details class="accordion-item">
+                <summary>3. Hassas Plaka Ebatlama ve Yan Kesme Hatları</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Standart ölçülerdeki fayans ve plaka üretimi için sürekli bant akışına uygun, çoklu testereli otomatik ebatlama makinası.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Testere millerinin dinamik balans hesapları, bant konveyör şasi tasarımı ve su püskürtmeli soğutma manifoldu entegrasyonu.</li>
+                        <li><strong>Kullanılan Teknolojiler:</strong> Stainless Steel Conveyor Frame, Multi-Blade Shaft Assemblies.</li>
+                        <li><strong>Kazanımlar:</strong> Seri üretim hattında duruş süresi kesintisiz çalışma rejimiyle %20 düşürüldü.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <!-- PROJE 4 -->
+            <details class="accordion-item">
+                <summary>4. Kalibre ve Yüzey Silme Makinası</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Plaka kalınlık toleranslarını sıfırlamak ve yüzey bozukluklarını gidermek için tasarlanmış elmas tamburlu kalibre mekanizması.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Tambur milleri ve mukavemetli yatak bloklarının tasarlanması, yüksek tork iletimi için kayış-kasnak ve redüktör seçimi.</li>
+                        <li><strong>Kullanılan Teknolojiler:</strong> Heavy Duty Reducers, Dynamic Balancing, Wet Machining Guards.</li>
+                        <li><strong>Kazanımlar:</strong> Plaka kalınlık farkı tüm yüzey boyunca maksimum ±0.1 mm sınırına çekildi.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <!-- PROJE 5 -->
+            <details class="accordion-item">
+                <summary>5. Otomatik Plaka Yükleme ve Takla Attırma Robotu</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Ağır mermer plakaları vakum vantuzları ile stanttan alıp kesim hattına besleyen ve gerektiğinde arka yüzey için 180° takla attıran otomasyon mekanizması.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Pnömatik ve hidrolik silindirli devirme/takla mekanizması kinematik hesabı, vakum vantuz şasisi ve kırılma riskine karşı emniyet kilitleri tasarımı.</li>
+                        <li><strong>Kullanılan Teknolojiler:</strong> Pneumatic Vacuum Gripper, Hydraulic Tilting Mechanism, Structural Steel Fabrication.</li>
+                        <li><strong>Kazanımlar:</strong> Plaka taşıma sırasında meydana gelen insan kaynaklı iş kazası riski sıfırlandı, yükleme süresi %50 kısaltıldı.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <!-- PROJE 6 -->
+            <details class="accordion-item">
+                <summary>6. Konveyörlü Pah Kırma ve Kenar İşleme Makinası</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Kesilmiş mermer kenarlarına pah kırma (chamfering) ve balıksırtı profil verme işlemini gerçekleştiren açılı ayarlanabilir kafa mekanizması.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Açı ayarlı iş mili tutucu braketlerinin ve hassas vidalı mil (ball screw) konumlandırma modüllerinin tasarımı.</li>
+                        <li><strong>Kullanılan Teknolojiler:</strong> Angle-Adjustable Spindle Mounts, Precision Ball Screws.</li>
+                        <li><strong>Kazanımlar:</strong> Farklı açı ve profiller için kurulum/ayar süresi 45 dakikadan 5 dakikaya düşürüldü.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <!-- PROJE 7 -->
+            <details class="accordion-item">
+                <summary>7. Çoklu Tel (Multi-Wire) Blok Kesme Makinası Destek Sistemleri</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Elmas teli kullanarak ham mermer bloklarını plakalara dilimleyen multi-wire makineleri için gergi ve kasnak kılavuz mekanizmaları.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Tel kopmasını önleyen sabit gergi hidrolik silindir bloğu tasarımı ve polimer kaplı tel kılavuz kasnaklarının aşınma analizi.</li>
+                        <li><strong>Kullanılan Teknolojiler:</strong> Hydraulic Tensioning, Polyurethane Coated Pulleys.</li>
+                        <li><strong>Kazanımlar:</strong> Tel kopma sıklığı %40 azaltılarak sarf malzeme maliyetlerinde ciddi tasarruf sağlandı.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <!-- PROJE 8 -->
+            <details class="accordion-item">
+                <summary>8. Döner Tablalı ve Tilting (Açısal) İşleme Tablası</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> 30 tona kadar ham blokları taşıyabilen, 360° dönebilen ve 85° açı yapabilen hidrolik devirmeli ağır hizmet arabası/tablası.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Ağır yük altında çalışan döner bilyalı rulman (slewing ring) ve hidrolik pistonyapısının mukavemet ve devrilme momenti hesapları.</li>
+                        <li><strong>Kullanılan Teknolojiler:</strong> Heavy Slewing Bearings, High-Pressure Hydraulic Actuators.</li>
+                        <li><strong>Kazanımlar:</strong> Blok yükleme ve konumlandırma emniyeti maksimum seviyeye çıkarıldı.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <!-- PROJE 9 -->
+            <details class="accordion-item">
+                <summary>9. Mermer Artık ve Çamur Arıtma / Pres Filtre Şasi Tasarımı</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Kesim esnasında çıkan mermer tozlu suyun geri dönüştürülmesi için kullanılan yüksek basınçlı pres filtre mekanik şasisi ve plaka sıkıştırma mekanizması.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Yüksek hidrolik sıkıştırma kuvvetlerine dayanan kaynaklı çelik gövde tasarımı ve plakaların otomatik ayrıştırma mekanizması.</li>
+                        <li><strong>Kullanılan Teknolojiler:</strong> Welded Heavy Steel Structure, High-Pressure Hydraulics.</li>
+                        <li><strong>Kazanımlar:</strong> Tesis içi su geri kullanım oranı %92'ye çıkarıldı.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <!-- PROJE 10 -->
+            <details class="accordion-item">
+                <summary>10. Özel Rölyef ve Sütun İşleme CNC Freze Makinası</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Mimari mermer sütunlar, antik rölyefler ve 3D süslemeler için özel olarak tasarlanmış rotary (döner eksenli) 4 eksen CNC freze mekanizması.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Döner eksen (A ekseni) punta ve divizör mekanizması tasarımı, yüksek torklu spandrel motor braketi ve koruma körükleri detaylandırması.</li>
+                        <li><strong>Kullanılan Teknolojiler:</strong> Rotary A-Axis Divisor, High-Torque Spindles, Protective Bellows.</li>
+                        <li><strong>Kazanımlar:</strong> Karmaşık sütun ve heykelimsi formların işlenme süresi %35 kısaltıldı.</li>
+                    </ul>
+                </div>
+            </details>
+
+        </div>
+    </div>
+
+</body>
+</html>
