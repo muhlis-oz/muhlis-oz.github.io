@@ -3,140 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhlis Öz | Design Engineer</title>
-    <style>
-        /* Ana Renkler ve Gövde */
-        body { 
-            font-family: 'Inter', 'Segoe UI', sans-serif; 
-            line-height: 1.6; 
-            color: #e0e0e0; 
-            max-width: 850px; 
-            margin: 0 auto; 
-            padding: 40px 20px; 
-            background-color: #0f172a; /* Derin Gece Mavisi/Siyah */
-        }
-
-        /* Başlık Alanı */
-        header { 
-            border-bottom: 2px solid #38bdf8; 
-            padding-bottom: 30px; 
-            margin-bottom: 40px; 
-        }
-        h1 { 
-            margin: 0; 
-            color: #ffffff; 
-            font-size: 2.8em; 
-            letter-spacing: -1px;
-        }
-        h2 { 
-            margin: 5px 0; 
-            color: #38bdf8; 
-            font-weight: 300; 
-            font-size: 1.5em;
-        }
-
-        /* İçerik Kutusu */
-        .content { 
-            background: #1e293b; 
-            padding: 40px; 
-            border-radius: 12px; 
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3); 
-            border: 1px solid #334155;
-        }
-
-        h3 { 
-            color: #f1f5f9; 
-            border-left: 5px solid #38bdf8; 
-            padding-left: 15px; 
-            margin-top: 0;
-            margin-bottom: 20px;
-        }
-
-        p {
-            color: #cbd5e1;
-            font-size: 1.1em;
-        }
-
-        /* Yetenekler */
-        .skills { 
-            display: flex; 
-            flex-wrap: wrap; 
-            gap: 12px; 
-            margin-top: 25px; 
-        }
-        .skill-badge { 
-            background: #334155; 
-            padding: 8px 18px; 
-            border-radius: 6px; 
-            font-size: 0.9em; 
-            font-weight: 500; 
-            color: #38bdf8; 
-            border: 1px solid #475569;
-            transition: 0.3s;
-        }
-        .skill-badge:hover {
-            background: #38bdf8;
-            color: #0f172a;
-        }
-
-        /* Buton */
-        .btn { 
-            display: inline-block; 
-            margin-top: 35px; 
-            padding: 15px 30px; 
-            background-color: #38bdf8; 
-            color: #0f172a; 
-            text-decoration: none; 
-            border-radius: 8px; 
-            transition: 0.3s; 
-            font-weight: 700; 
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        .btn:hover { 
-            background-color: #7dd3fc; 
-            transform: translateY(-2px);
-        }
-
-        /* Alt Bilgi */
-        footer {
-            margin-top: 50px;
-            text-align: center;
-            font-size: 0.8em;
-            color: #64748b;
-        }
-    </style>
+    <title>Portfolyo | Makine Tasarım & İmalat Mühendisi</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Muhlis Öz</h1>
-        <h2>Design Engineer</h2>
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="container">
+            <h1>Makine Tasarım & İmalat Mühendisi</h1>
+            <p>7+ yıllık tecrübe | Ürün Geliştirme, CAD/CAM, İleri İmalat Teknolojileri & Proje Yönetimi</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">Projelerimi İncele</a>
+                <a href="assets/docs/cv.pdf" class="btn secondary" target="_blank">CV'mi İndir (PDF)</a>
+            </div>
+        </div>
     </header>
 
-    <div class="content">
-        <h3>Hakkımda</h3>
-        <p>
-            Mekanik tasarım ve endüstriyel otomasyon konularında yenilikçi çözümler üretiyorum. 
-            Karmaşık sistemleri daha verimli, sürdürülebilir ve üretilebilir hale getirmek temel odak noktamdır.
-        </p>
-
-        <h3>Uzmanlık Alanları</h3>
-        <div class="skills">
-            <span class="skill-badge">SolidWorks</span>
-            <span class="skill-badge">AutoCAD</span>
-            <span class="skill-badge">Mekanik Tasarım</span>
-            <span class="skill-badge">Ar-Ge & İnovasyon</span>
-            <span class="skill-badge">Üretim Teknolojileri</span>
-            <span class="skill-badge">Otomasyon</span>
+    <!-- İSTATİSTİKLER -->
+    <section class="stats">
+        <div class="container grid-3">
+            <div class="stat-card">
+                <h3>7+ Yıl</h3>
+                <p>Sektör Tecrübesi</p>
+            </div>
+            <div class="stat-card">
+                <h3>50+</h3>
+                <p>Tamamlanan Proje</p>
+            </div>
+            <div class="stat-card">
+                <h3>ISO / DIN</h3>
+                <p>Standartlara Uygun Tasarım</p>
+            </div>
         </div>
-        
-        <a href="mailto:muhlisoz@email.com" class="btn">Proje Başlat</a>
-    </div>
+    </section>
 
-    <footer>
-        &copy; 2024 Muhlis Öz. Tüm hakları saklıdır.
-    </footer>
+    <!-- PROJELER -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Öne Çıkan Projeler</h2>
+            <div class="project-grid">
+
+                <!-- Proje 1 -->
+                <div class="card">
+                    <div class="card-body">
+                        <span class="tag">Katmanlı İmalat & Prototipleme</span>
+                        <h3>Additive Manufacturing & Functional Prototyping</h3>
+                        <p>Endüstriyel kullanım için tasarlanan mekanik parçaların FDM/SLA katmanlı imalat ile fonksiyonel prototiplenmesi.</p>
+                        <a href="projects/S1.md" class="link">Proje Detayları →</a>
+                    </div>
+                </div>
+
+                <!-- Proje 2 -->
+                <div class="card">
+                    <div class="card-body">
+                        <span class="tag">Mekanizma Tasarımı & Akışkan Gücü</span>
+                        <h3>Hydraulic Gripper & Actuator Mechanism</h3>
+                        <p>Ağır sanayi şartlarında yüksek sıkma kuvveti gerektiren hidrolik tahrikli ve emniyet kilitli tutucu mekanizması.</p>
+                        <a href="projects/S2.md" class="link">Proje Detayları →</a>
+                    </div>
+                </div>
+
+                <!-- Proje 3 -->
+                <div class="card">
+                    <div class="card-body">
+                        <span class="tag">Hassas İmalat & DFM</span>
+                        <h3>Precision CNC Machined Components</h3>
+                        <p>Karmaşık yüzey geometrisine sahip yapısal parçaların 5 eksen CNC dikey işleme merkezlerinde imalatı.</p>
+                        <a href="projects/S3.md" class="link">Proje Detayları →</a>
+                    </div>
+                </div>
+
+                <!-- Proje 4 -->
+                <div class="card">
+                    <div class="card-body">
+                        <span class="tag">Sac Metal & Kaynaklı İmalat</span>
+                        <h3>Modular Sheet Metal Enclosure</h3>
+                        <p>IP65 sızdırmazlık standartlarına uygun perçin ve kaynak birleştirmeli modüler sac metal gövde tasarımı.</p>
+                        <a href="projects/S4.md" class="link">Proje Detayları →</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
