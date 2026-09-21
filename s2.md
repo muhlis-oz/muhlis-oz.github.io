@@ -1,0 +1,22 @@
+---
+title: "Heavy-Duty Hydraulic Gripper & Actuator Mechanism"
+date: 2025-11-15
+category: "Mekanizma Tasarımı & Akışkan Gücü"
+role: "Senior Mechanical Design Engineer"
+materials: ["St 52 Steel", "Bronze Bushings", "Hard Chrome Plated Shafts"]
+tools: ["SolidWorks", "Automation Studio", "ISO 1219 Standards"]
+cover_image: "/assets/images/projects/hydraulic-gripper.jpg"
+featured: false
+---
+
+## Proje Özeti
+Ağır sanayi şartlarında yüksek sıkma kuvveti gerektiren hatlar için hidrolik tahrikli, emniyet kilitli ve yüksek yük kapasiteli tutucu (gripper) mekanizmasının tasarımı.
+
+## Üstlendiğim Görevler ve Roller
+- **Mekanik & Kinematik Hesaplamalar:** İstenen tutma kuvvetini elde etmek için mafsal/kaldıraç mekanizmasının vektörel kuvvet analizleri ve strok hesapları.
+- **Silindir ve Valf Seçimi:** Sistem çalışma basıncına uygun hidrolik silindir çapı, debi ihtiyacı ve yön kontrol valflerinin boyutlandırılması.
+- **Aşınma Elemanları Tasarımı:** Yüksek sürtünmeye maruz kalan mafsal noktalarında değişebilir bronz yataklama ve yağlama kanallarının detaylandırılması.
+
+## Kazanımlar ve Çıktılar
+- Maksimum çalışma basıncında deformasyonsuz 2.5 ton tutma kuvveti sağlandı.
+- Bakım kolaylığı sağlayan modüler pin ve burç yapısı entegre edildi.
