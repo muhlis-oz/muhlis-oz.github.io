@@ -1,0 +1,22 @@
+---
+title: "Precision CNC Machined Structural Components"
+date: 2025-08-05
+category: "Hassas Talaşlı İmalat & DFM"
+role: "Manufacturing & Process Engineer"
+materials: ["7075-T6 Aluminum", "AISI 4140 Alloy Steel"]
+tools: ["CATIA V5", "SolidCAM", "DIN 2768-mK"]
+cover_image: "/assets/images/projects/cnc-machining.jpg"
+featured: false
+---
+
+## Proje Özeti
+Havacılık/makine sektörüne yönelik karmaşık yüzey geometrisine sahip yapısal parçaların 5 eksen CNC dikey işleme merkezlerinde üretilebilirliği için DFM (Design for Manufacturing) esaslı yeniden tasarımı ve imalatı.
+
+## Üstlendiğim Görevler ve Roller
+- **Üretilebilirlik Tasarımı (DFM):** Kesici takım erişim açılarını artırmak ve bağlama (fixture) sayısını azaltmak için CAD modelindeki radyus ve kanalların optimize edilmesi.
+- **Tolerans Yapılandırması:** Kritik rulman ve yatak yerleri için IT7/IT8 tolerans aralıklarının belirlenmesi ve geometrik toleranslandırma (GD&T - ISO 1101).
+- **Takım Yolu ve Fikstür Tasarımı:** Parçanın işlenmesi sırasında esnemesini önleyecek özel çene ve vakum fikstürü tasarımı.
+
+## Kazanımlar ve Çıktılar
+- Parça başı işleme süresi (cycle time) %22 azaltıldı.
+- Takım kırılması ve iş mili çakışma (crash) riski sıfıra indirildi.
