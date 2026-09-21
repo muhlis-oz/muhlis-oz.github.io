@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özel Amaçlı Makina Tasarımları | Portfolyo</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .accordion-container {
+            margin-top: 30px;
+        }
+        .accordion-item {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 15px;
+            overflow: hidden;
+            transition: border-color 0.3s ease;
+        }
+        .accordion-item:hover {
+            border-color: var(--accent-color);
+        }
+        .accordion-item summary {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            padding: 18px 20px;
+            cursor: pointer;
+            outline: none;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .accordion-item summary::-webkit-details-marker {
+            display: none;
+        }
+        .accordion-item summary::after {
+            content: "+";
+            font-size: 1.4rem;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+        .accordion-item[open] summary::after {
+            content: "−";
+        }
+        .accordion-item[open] summary {
+            border-bottom: 1px solid var(--border-color);
+            color: var(--accent-color);
+        }
+        .accordion-content {
+            padding: 20px;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+        .accordion-content strong {
+            color: var(--text-primary);
+        }
+        .accordion-content ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        .accordion-content li {
+            margin-bottom: 6px;
+        }
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 25px;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-btn:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container" style="padding-top: 50px; padding-bottom: 80px;">
+        <a href="../index.html" class="back-btn">← Ana Sayfaya Dön</a>
+        
+        <header style="margin-bottom: 40px;">
+            <h1 style="font-size: 2.2rem; color: var(--accent-color); margin-bottom: 10px;">Özel Amaçlı Makina Tasarımları</h1>
+            <p style="color: var(--text-secondary); font-size: 1.1rem;">
+                Terzi usulü mühendislik çözümleri, patentli yakma sistemleri, CNC işleme platformları ve özel imalat presleri.
+            </p>
+        </header>
+
+        <div class="accordion-container">
+
+            <!-- PROJE 1 -->
+            <details class="accordion-item">
+                <summary>1. CNC Router Tasarımları</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Ahşap, kompozit ve yumuşak metallerin işlenmesi amacıyla tasarlanmış yüksek rijitliğe sahip 3 ve 4 eksenli CNC router platformları.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Şasi titreşim ve rijitlik analizleri, krameyer-pinyon ve bilyalı mil (ball screw) tahrik mekanizmaları seçimi ve koruma körükleri tasarımı.</li>
+                        <li><strong>Kazanımlar:</strong> Yüksek ilerleme hızlarında titreşimsiz ve hassas yüzey işleme performansı elde edildi.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <!-- PROJE 2 -->
+            <details class="accordion-item">
+                <summary>2. Endüstriyel Atıkları Dumansız Yakma Patentli Projesi</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Endüstriyel atıkların çevre standartlarına uygun olarak yüksek sıcaklıkta ve sıfır duman emisyonu ile bertaraf edilmesini sağlayan patentli yanma odası ve ikincil yakma mekanizması.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Yanma odası flanş ve taban sacı montaj tasarımları, yüksek sıcaklığa dayanıklı malzeme (304 SS / Özel Alaşımlar) ve sızdırmazlık detaylandırması.</li>
+                        <li><strong>Kazanımlar:</strong> Patentli yanma teknolojisi ile emisyon değerleri minimuma indirildi, ısı geri kazanım verimliliği sağlandı.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <!-- PROJE 3 -->
+            <details class="accordion-item">
+                <summary>3. Montaj ve Lojistik Kolay Kanatlı Kafesi</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Hayvancılık ve lojistik sektörüne yönelik; nakliye sırasında katlanabilir, montajı hızlı ve modüler yapıda özel kanatlı hayvan taşıma kafesi tasarımı.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Sac metal ve tel formlama konstrüksiyonu, katlanabilir pabuç/kilit mekanizmaları tasarımı ve DFM (İmalat için Tasarım) optimizasyonu.</li>
+                        <li><strong>Kazanımlar:</strong> Boş nakliye hacminde %60 tasarruf sağlandı, kurulum/söküm süresi dakikalar seviyesine indirildi.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <!-- PROJE 4 -->
+            <details class="accordion-item">
+                <summary>4. Ortopedik Poliüretan Yastık Presi</summary>
+                <div class="accordion-content">
+                    <p><strong>Özet:</strong> Medikal ve ortopedik sünger/poliüretan ürünlerin hassas kalıplanması ve forma sokulması için tasarlanmış sıcaklık kontrollü hidrolik/pnömatik pres sistemi.</p>
+                    <ul>
+                        <li><strong>Üstlendiğim Rol:</strong> Isıtmalı kalıp tablaları mekanik tasarımı, paralel kapanma garantisi sağlayan sütunlu kılavuzlama mekanizmaları ve emniyet bariyerleri.</li>
+                        <li><strong>Kazanımlar:</strong> Ürün form homojenliği %100 sağlandı, kalıplama çevrim süreleri optimize edildi.</li>
+                    </ul>
+                </div>
+            </details>
+
+        </div>
+    </div>
+
+</body>
+</html>
